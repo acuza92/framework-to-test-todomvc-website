@@ -1,0 +1,12 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "This is the project to test just with cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "cypress-firefox": "cypress run --browser firefox"
+  },
+  "author": "Anais",
+  "license": "ISC"
+}
