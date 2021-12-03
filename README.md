@@ -51,5 +51,8 @@ npm run cypress
 #### Test at Firefox
 npm run cypress-firefox
 
+### Test in parallel simultaneously
+npm run cy:parallel
+
 
 

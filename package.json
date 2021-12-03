@@ -5,8 +5,17 @@
   "main": "index.js",
   "scripts": {
     "cypress": "cypress open",
-    "cypress-firefox": "cypress run --browser firefox"
+    "cypress-firefox": "cypress run --browser firefox",
+    "cy:run": "cypress run",
+    "cy:parallel": "cypress-parallel -s cy:run -t 2 -d cypress/integration/ -a '\"--config baseUrl=https://todomvc.com\"' "
   },
   "author": "Anais",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.1.0",
+    "cypress-parallel": "^0.5.0"
+  },
+  "devDependencies": {
+    "cypress-multi-reporters": "^1.5.0"
+  }
 }
